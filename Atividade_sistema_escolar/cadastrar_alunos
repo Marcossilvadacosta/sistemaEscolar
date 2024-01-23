@@ -1,0 +1,53 @@
+####cadastro de alunos
+import random
+###interação com candidato###
+
+Matricula = int(input ("Digite a Matricula do aluno "))
+Nome = input("Digite o nome completo do aluno ")
+Idade =input("Digite a idade ")
+Escolaridade = input("Digite sua escolaridade ")
+Email = input ("Digite seu Email ")
+Nome_do_Pai = input("Digite o nome do pai ")
+Nome_do_Mae = input("Digite o nome do Mãe ")
+cpf = str(input("Digite seu CPF "))
+
+"""analize do histórico do aluno"""
+if Idade <= 6:
+    print ("pré natal")
+elif Idade >6 or Idade <=7:
+    print("1° ano, fundamental")
+elif Idade >7 or Idade<=8:
+    print("2° ano, fundamental")
+elif Idade >8 or Idade<=9:
+    print("3° ano, fundamental")
+elif Idade >9 or Idade<=10:
+    print("4° ano, fundamental")
+elif Idade >11 or Idade<=12:
+    print("5° ano, fundamental")
+elif Idade >12 or Idade<=13:
+    print("6° ano, fundamental")
+elif Idade >13 or Idade<=14:
+    print("7° ano, fundamental")
+elif Idade >14 or Idade<=15:
+    print("8° ano, fundamental")
+elif Idade >15 or Idade<=16:
+    print("1° ano, Ensino médio")
+elif Idade >16 or Idade<=17:
+    print("7° ano, Ensino médio")
+elif Idade >17 or Idade<=1:
+    print("8° ano, Ensino médio")
+else:
+    print("Ensino superior")
+while Ensino_superior
+            print("Qual periodo você esta?")
+   
+   ###Analizando o valor da bolsa que o aluno
+   ###terá direito a partir do salário famliar
+
+Renda_familiar = input("Qual sua renda Familiar?")
+if Renda_familiar <= 1.300:
+    print("100% de bolsa de estudos")
+elif Renda_familiar >=1.300 or Renda_familiar <=2.600:
+    print("50% de bolsa de estudos")
+else:
+    print("não tem direito a bolsa de estudos")
